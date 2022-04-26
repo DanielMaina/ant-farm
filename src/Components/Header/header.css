@@ -1,0 +1,82 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-amount-rewards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-icon {
+    margin: 25px;
+    background-image: url("../../Assets/ant-farm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    z-index: 1;
+}
+
+.header-aphids-amount-conainer {
+    align-items: center;
+    margin: 25px 0 25px 0;
+} 
+.header-aphids-amount {
+    cursor: context-menu;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header-aphids-rewards {
+    display: flex;
+    cursor: context-menu;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header-aphids-reward-amount {
+    margin-left: 5px;
+    color: #66b032;
+}
+
+.connect {
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: 25px;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    transition: transform .5s;
+}
+.connect:hover {
+    background-color: #f2f3f4;
+    transform: scale(1.10);
+}
+
+@media only screen and (max-width: 590px) {
+    .logo-amount-rewards {
+        display: block;
+    }
+    .header-aphids-amount-conainer {
+        align-items: center;
+        margin: 25px 0 25px 25px;
+    } 
+    
+    .header-aphids-rewards {
+        margin: 25px 0 25px 25px;
+        display: flex;
+        cursor: context-menu;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
